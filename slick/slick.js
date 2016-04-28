@@ -1302,7 +1302,6 @@
                 });
             })
                 .first().attr('aria-selected', 'true').end()
-                .find('button').attr('role', 'button').end()
                 .closest('div').attr('role', 'toolbar');
         }
         _.activateADA();
